@@ -214,7 +214,7 @@ h1 {
 .btn-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 30px 120px;
+    margin: 50px 15px 120px;
 }
 .btn-container button {
     height: 40px;
