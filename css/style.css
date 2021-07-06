@@ -207,8 +207,9 @@ h1 {
 .wthree_footer_copy p a:hover{
 	color:#212121;
 }
-
-
+.w3ls-touch{
+	padding: 1em;
+}
 .btn-container {
     display: flex;
     justify-content: space-between;
