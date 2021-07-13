@@ -20,33 +20,35 @@ img {
 /*end reset*/
 body{
 	padding: 30px;
-    background: #98d9f5;
+    background: #0e0101;
     background-size: cover;
    font-family: 'Raleway', sans-serif;
 }
 .wrap {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 /*--profile start here--*/
 .heading-1 {
-	font-size: 35px;
+
+	font-size: 30px;
 	font-weight: 400;
 	letter-spacing: 1.2;
 }
 h1 {
-    font-size: 3em;
-    color: #fff;
+
+    font-size: 100em;
+    color: rgb(216, 197, 25);
     text-align: center;
 }
 .profile-main {
-    background: url(../images/1.png) no-repeat 0px 0px;
+    background: url(../images/1.PNG) no-repeat 0px 0px;
 	background-size:cover;
-    width: 45%;
+    width: 40%;
     margin: 20px auto;
     padding: 30px;
-    border-radius: 4px;
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,.2);
 }
 .profile-pic {
     margin: 0 0 1em 0;
@@ -62,12 +64,12 @@ h1 {
 }
 .profile-pic h2 {
     font-size: 2em;
-    color: #474544;
+    color: #9b4012;
     margin-bottom: 0.1em;
 }
 .profile-pic p {
     font-size: 1em;
-    color:#4E4E4E;
+    color:#7e0505;
 }
 .wthree_tab_grid_sub {
     margin: 1em 0 0 0;
@@ -81,7 +83,7 @@ h1 {
 }
 .wthree_tab_grid_sub_left h5 {
     font-size: 1.5em !important;
-    color: #fff !important;
+    color: rgba(30, 194, 44, 0.534) !important;
     font-weight: 700;
 }
 .wthree_tab_grid_sub_left p {
@@ -100,16 +102,23 @@ h1 {
 .w3-message{
     padding: 1em;
     box-shadow: 0 0px 1px rgba(197, 197, 197, 0.19),0 1px 2px rgba(0, 0, 0, 0.24);
-    background: rgb(245, 245, 245);
+    background: #fff;
+	border-radius: 15px;
 }
 .w3-message h5,.w3ls-touch h5{
-	color:#474544;
+	color:#d41c4a;
+	font-size:1.75em;
+	margin:0;
+}
+}
+.w3-message h9,.w3ls-touch h9{
+	color:#1d9e77;
 	font-size:1.5em;
 	margin:0;
 }
 .w3-message p{
-	color:#c5b7b7;
-	font-size:16px;
+	color:#2949d4;
+	font-size:25px;
 	margin:1em 0 0 0;
 	line-height:1.8em;
 }
@@ -121,8 +130,8 @@ h1 {
 	margin: 1em 0 0 0;
 }
 .social ul{
-	padding:0;
-	margin:0;
+	padding:0px;
+	margin: 0px;
 }
 .social ul li{
     display: block;
@@ -132,16 +141,16 @@ h1 {
 	margin:0;
 }
 .social ul li a {
-	color: #333;
+	color: rgb(241, 232, 232);
     text-align: center;
 }
-.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-instagram,.social ul li a i.fa.fa-github,.social ul li a i.fa.fa-google-plus{
+.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-instagram,.social ul li a i.fa.fa-tiktok,.social ul li a i.fa.fa-zalo,.social ul li a i.fa.fa-google-plus{
     height: 40px;
     width: 40px;
     background: none;
     line-height: 40px;
-    border: solid 2px #FFF;
-    color: #FFF;
+    border: solid 2px rgb(248, 242, 242);
+    color: rgb(241, 232, 232);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -154,20 +163,24 @@ h1 {
     -ms-transition: 0.5s all;
 }
 .social ul li a i.fa.fa-facebook {
-	background: #3b5998;
+	
+	background: #1d48a3;
 }
 .social ul li a i.fa.fa-instagram{
 	background: #1da1f2;
 }
-.social ul li a i.fa.fa-github{
-	background: #0077b5;
+.social ul li a i.fa.fa-tiktok{
+	background: #0893d8;
+}
+.social ul li a i.fa.fa-zalo{
+	background: #4084a8;
 }
 .social ul li a i.fa.fa-google-plus{
 	background: #dd4b39;
 }
 .social ul li a i.fa.fa-facebook:hover {
 	border: solid 2px #3b5998;
-    color: #3b5998;
+    color: #235fe0;
 	background:none;
 }
 .social ul li a i.fa.fa-instagram:hover{
@@ -175,7 +188,12 @@ h1 {
     color: #1da1f2;
 	background:none;
 }
-.social ul li a i.fa.fa-github:hover{
+.social ul li a i.fa.fa-tiktok:hover{
+	border: solid 2px #0077b5;
+    color: #0077b5;
+	background:none;
+}
+.social ul li a i.fa.fa-zalo:hover{
 	border: solid 2px #0077b5;
     color: #0077b5;
 	background:none;
@@ -208,20 +226,18 @@ h1 {
 	color:#212121;
 }
 
-.btn-container{
-	padding: 1em;
-}
+
 .btn-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 10px 120px;
+    margin: 0px 0px 150px;
 }
 .btn-container button {
-    height: 60px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     border:  none;
-    margin-right: 50px;
-    border-radius: 15px;
+    margin-right: 0px;
+    border-radius: 0px;
     column-count: #333;
     color: #333;
     cursor: pointer;
@@ -252,7 +268,7 @@ h1 {
 
 @media(max-width:600px){
 	.profile-main {
-		background: url(../images/1.png) no-repeat -100px 0px;
+		background: url(../images/1.PNG) no-repeat -100px 0px;
 		background-size: cover;
 	}
 	.social ul li a p {
@@ -272,7 +288,7 @@ h1 {
 		font-size: .8em !important;
 	}
 	.profile-main {
-		background: url(../images/1.png) no-repeat -173px 0px;
+		background: url(../images/1.PNG) no-repeat -173px 0px;
 		background-size: cover;
 	}
 }

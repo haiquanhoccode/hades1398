@@ -1,5 +1,5 @@
 :root {
-    --blue: #2980b9;
+    --blue: #1685f3;
     --text-dark: #2c3e50;
     --text-dark-light: #3F3849;
     --text-light: #bdc3c7;
@@ -384,7 +384,7 @@ img {max-width: 100%;}
     padding:8rem 2.5rem;
     border-radius: 4px;
     background-color: var(--text-dark);
-    color: #fff;
+    color: rgb(145, 25, 25);
     box-shadow: 4px 2px 5px rgba(0,0,0,.2);
     transition: all .4s ease-in-out;
     cursor: pointer;
